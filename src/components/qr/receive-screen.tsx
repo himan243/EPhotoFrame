@@ -100,14 +100,18 @@ export default function ReceiveScreen() {
       return;
     }
 
-    hidden.width = srcW;
-    hidden.height = srcH;
+    // upscale small sources slightly to help QR detection from camera photos
+    const upscale = srcW < 400 ? 2 : 1;
+    hidden.width = srcW * upscale;
+    hidden.height = srcH * upscale;
     const ctx = hidden.getContext("2d", { willReadFrequently: true })!;
     ctx.drawImage(source as CanvasImageSource, 0, 0, hidden.width, hidden.height);
     const img = ctx.getImageData(0, 0, hidden.width, hidden.height);
-    const code = jsQR(img.data, img.width, img.height, { inversionAttempts: "dontInvert" });
+    const code = jsQR(img.data, img.width, img.height, { inversionAttempts: "attemptBoth" });
+    if (code?.data) console.debug("qr-decoded", code.data.slice(0, 200));
     if (code?.data) {
       const res = receiverRef.current.handle(code.data);
+      console.debug("qr-handle", res, receiverRef.current.session());
       if (res === "accepted" || res === "done") {
         const s = receiverRef.current.session();
         if (s) {
