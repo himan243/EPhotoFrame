@@ -79,30 +79,48 @@ export default function ReceiveScreen() {
   function scanLoop() {
     const video = videoRef.current;
     const hidden = hiddenRef.current;
-    if (!video || !hidden) return;
-    if (video.readyState === video.HAVE_ENOUGH_DATA) {
-      hidden.width = video.videoWidth;
-      hidden.height = video.videoHeight;
-      const ctx = hidden.getContext("2d", { willReadFrequently: true })!;
-      ctx.drawImage(video, 0, 0, hidden.width, hidden.height);
-      const img = ctx.getImageData(0, 0, hidden.width, hidden.height);
-      const code = jsQR(img.data, img.width, img.height, { inversionAttempts: "dontInvert" });
-      if (code?.data) {
-        const res = receiverRef.current.handle(code.data);
-        if (res === "accepted" || res === "done") {
-          const s = receiverRef.current.session();
-          if (s) {
-            setGot(s.got);
-            setTotal(s.total);
-          }
-          setLastPing(Date.now());
+    const preview = previewRef.current;
+    if (!hidden) return;
+
+    // choose source: prefer preview canvas when fallback is active
+    const source: HTMLVideoElement | HTMLCanvasElement | null = usePreviewFallback && preview ? preview : video;
+    if (!source) return;
+
+    // if source is video, ensure it has enough data; if canvas, ensure dimensions
+    const isVideo = source instanceof HTMLVideoElement;
+    if ((isVideo && source.readyState !== (source as HTMLVideoElement).HAVE_ENOUGH_DATA) || (!isVideo && (source as HTMLCanvasElement).width === 0)) {
+      rafRef.current = requestAnimationFrame(scanLoop);
+      return;
+    }
+
+    const srcW = (isVideo ? (source as HTMLVideoElement).videoWidth : (source as HTMLCanvasElement).width) || 0;
+    const srcH = (isVideo ? (source as HTMLVideoElement).videoHeight : (source as HTMLCanvasElement).height) || 0;
+    if (!srcW || !srcH) {
+      rafRef.current = requestAnimationFrame(scanLoop);
+      return;
+    }
+
+    hidden.width = srcW;
+    hidden.height = srcH;
+    const ctx = hidden.getContext("2d", { willReadFrequently: true })!;
+    ctx.drawImage(source as CanvasImageSource, 0, 0, hidden.width, hidden.height);
+    const img = ctx.getImageData(0, 0, hidden.width, hidden.height);
+    const code = jsQR(img.data, img.width, img.height, { inversionAttempts: "dontInvert" });
+    if (code?.data) {
+      const res = receiverRef.current.handle(code.data);
+      if (res === "accepted" || res === "done") {
+        const s = receiverRef.current.session();
+        if (s) {
+          setGot(s.got);
+          setTotal(s.total);
         }
-        if (res === "done") {
-          const dataUrl = receiverRef.current.complete();
-          if (dataUrl) {
-            finish(dataUrl);
-            return;
-          }
+        setLastPing(Date.now());
+      }
+      if (res === "done") {
+        const dataUrl = receiverRef.current.complete();
+        if (dataUrl) {
+          finish(dataUrl);
+          return;
         }
       }
     }
