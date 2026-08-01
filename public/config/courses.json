@@ -1,0 +1,9 @@
+[
+  { "id": "btech", "name": "Bachelor of Technology", "short": "B.Tech", "icon": "Cpu" },
+  { "id": "bca", "name": "Bachelor of Computer Applications", "short": "BCA", "icon": "Code2" },
+  { "id": "bba", "name": "Bachelor of Business Administration", "short": "BBA", "icon": "Briefcase" },
+  { "id": "bcom", "name": "Bachelor of Commerce", "short": "B.Com", "icon": "BarChart3" },
+  { "id": "mba", "name": "Master of Business Administration", "short": "MBA", "icon": "TrendingUp" },
+  { "id": "mca", "name": "Master of Computer Applications", "short": "MCA", "icon": "Laptop" },
+  { "id": "mtech", "name": "Master of Technology", "short": "M.Tech", "icon": "FlaskConical" }
+]

@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="1067" viewBox="0 0 800 1067">
+<defs>
+  <linearGradient id="bandGrad" x1="0" y1="0" x2="1" y2="0">
+    <stop offset="0" stop-color="#223669"/>
+    <stop offset="0.5" stop-color="#7c5cff"/>
+    <stop offset="1" stop-color="#0b1022"/>
+  </linearGradient>
+  <radialGradient id="glow" cx="0.5" cy="0.35" r="0.9">
+    <stop offset="0" stop-color="#7c5cff" stop-opacity="0.5"/>
+    <stop offset="1" stop-color="#0b1022" stop-opacity="0"/>
+  </radialGradient>
+</defs>
+<rect x="0" y="897" width="800" height="170" fill="url(#bandGrad)"/>
+<rect x="0" y="889" width="800" height="8" fill="#7c5cff"/>
+<text x="400" y="971" text-anchor="middle" font-family="'Space Grotesk',sans-serif" font-weight="700" font-size="52" letter-spacing="6" fill="#EEF2FF">DES</text>
+<rect x="346" y="86" width="108" height="108" rx="24" fill="none" stroke="#5b7bd6" stroke-width="3"/>
+<circle cx="400" cy="140" r="20" fill="none" stroke="#A78BFA" stroke-width="4"/><path d="M 400 120 L 400 132" stroke="#A78BFA" stroke-width="4"/><circle cx="400" cy="140" r="4" fill="#A78BFA"/>
+</svg>

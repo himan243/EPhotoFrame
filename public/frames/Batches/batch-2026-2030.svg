@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="1067" viewBox="0 0 800 1067">
+<defs>
+  <linearGradient id="bandGrad" x1="0" y1="0" x2="1" y2="0">
+    <stop offset="0" stop-color="#C9A24B"/>
+    <stop offset="0.5" stop-color="#223669"/>
+    <stop offset="1" stop-color="#223669"/>
+  </linearGradient>
+  <radialGradient id="glow" cx="0.5" cy="0.35" r="0.9">
+    <stop offset="0" stop-color="#223669" stop-opacity="0.5"/>
+    <stop offset="1" stop-color="#223669" stop-opacity="0"/>
+  </radialGradient>
+</defs>
+<path d="M 28 76 L 76 76 L 76 28" fill="none" stroke="#E3C374" stroke-width="6" stroke-linecap="round" transform="rotate(0 52 52)"/>
+<path d="M 724 76 L 772 76 L 772 28" fill="none" stroke="#E3C374" stroke-width="6" stroke-linecap="round" transform="rotate(90 748 52)"/>
+<path d="M 724 1039 L 772 1039 L 772 991" fill="none" stroke="#E3C374" stroke-width="6" stroke-linecap="round" transform="rotate(180 748 1015)"/>
+<path d="M 28 1039 L 76 1039 L 76 991" fill="none" stroke="#E3C374" stroke-width="6" stroke-linecap="round" transform="rotate(270 52 1015)"/>
+<rect x="34" y="34" width="732" height="999" rx="30" fill="none" stroke="#ffffff55" stroke-width="2"/>
+<text x="400" y="300" text-anchor="middle" font-family="'Space Grotesk',sans-serif" font-weight="700" font-size="66" letter-spacing="4" fill="#E3C374">2026</text>
+<text x="400" y="392" text-anchor="middle" font-family="'Inter',sans-serif" font-weight="500" font-size="34" fill="#EEF2FF">→</text>
+<text x="400" y="470" text-anchor="middle" font-family="'Space Grotesk',sans-serif" font-weight="700" font-size="66" letter-spacing="4" fill="#E3C374">2030</text>
+<text x="400" y="987" text-anchor="middle" font-family="'Space Grotesk',sans-serif" font-weight="600" font-size="26" letter-spacing="10" fill="#EEF2FF88">CLASS OF 2030</text>
+</svg>

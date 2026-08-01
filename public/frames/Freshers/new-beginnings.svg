@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="1067" viewBox="0 0 800 1067">
+<defs>
+  <linearGradient id="bandGrad" x1="0" y1="0" x2="1" y2="0">
+    <stop offset="0" stop-color="#C9A24B"/>
+    <stop offset="0.5" stop-color="#E3C374"/>
+    <stop offset="1" stop-color="#8c6c2a"/>
+  </linearGradient>
+  <radialGradient id="glow" cx="0.5" cy="0.35" r="0.9">
+    <stop offset="0" stop-color="#E3C374" stop-opacity="0.5"/>
+    <stop offset="1" stop-color="#8c6c2a" stop-opacity="0"/>
+  </radialGradient>
+</defs>
+<rect x="0" y="0" width="800" height="1067" fill="url(#glow)"/>
+<rect x="18" y="18" width="764" height="1031" rx="36" fill="none" stroke="#E3C374" stroke-width="5"/>
+<rect x="40" y="40" width="720" height="987" rx="26" fill="none" stroke="#C9A24B88" stroke-width="2" stroke-dasharray="2 8"/>
+<circle cx="400" cy="120" r="46" fill="none" stroke="#E3C374" stroke-width="4"/>
+<circle cx="400" cy="120" r="34" fill="none" stroke="#E3C374" stroke-width="2"/>
+<circle cx="400" cy="120" r="8" fill="#E3C374"/>
+<path d="M 160 234.74 A 60 60 0 0 1 640 234.74" fill="none" stroke="#E3C374" stroke-width="3"/>
+</svg>

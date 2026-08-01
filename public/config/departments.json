@@ -1,0 +1,12 @@
+[
+  { "id": "cse", "name": "Computer Science & Engineering", "short": "CSE", "icon": "Code2" },
+  { "id": "ai", "name": "Artificial Intelligence", "short": "AI", "icon": "Bot" },
+  { "id": "cyber", "name": "Cyber Security", "short": "CYS", "icon": "Shield" },
+  { "id": "ece", "name": "Electronics & Communication", "short": "ECE", "icon": "Radio" },
+  { "id": "mech", "name": "Mechanical Engineering", "short": "MEC", "icon": "Cog" },
+  { "id": "civil", "name": "Civil Engineering", "short": "CIV", "icon": "Building2" },
+  { "id": "business", "name": "Business & Management", "short": "BUS", "icon": "Briefcase" },
+  { "id": "finance", "name": "Finance & Accounts", "short": "FIN", "icon": "Wallet" },
+  { "id": "marketing", "name": "Marketing", "short": "MKT", "icon": "Megaphone" },
+  { "id": "design", "name": "Design & Media", "short": "DES", "icon": "Palette" }
+]

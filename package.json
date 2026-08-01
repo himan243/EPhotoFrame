@@ -1,21 +1,38 @@
 {
-  "name": "epf-scaffold",
-  "version": "0.1.0",
+  "name": "sunstone-freshers-photobooth",
+  "version": "1.0.0",
   "private": true,
+  "description": "Sunstone Freshers Experience 2026 — a premium photo booth with offline animated-QR image transfer.",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "eslint"
+    "lint": "eslint",
+    "sync:frames": "node scripts/sync-frames.mjs",
+    "generate:icons": "node scripts/generate-icons.mjs",
+    "setup": "npm install && npm run sync:frames && npm run generate:icons"
   },
   "dependencies": {
+    "@radix-ui/react-slot": "^1.2.4",
+    "canvas-confetti": "^1.9.3",
+    "class-variance-authority": "^0.7.1",
+    "clsx": "^2.1.1",
+    "fabric": "^6.7.1",
+    "framer-motion": "^12.23.12",
+    "jsqr": "^1.4.0",
+    "lucide-react": "^0.468.0",
     "next": "16.2.12",
+    "qrcode": "^1.5.4",
     "react": "19.2.4",
-    "react-dom": "19.2.4"
+    "react-dom": "19.2.4",
+    "tailwind-merge": "^3.3.1",
+    "zustand": "^5.0.5"
   },
   "devDependencies": {
     "@tailwindcss/postcss": "^4",
+    "@types/canvas-confetti": "^1.9.0",
     "@types/node": "^20",
+    "@types/qrcode": "^1.5.5",
     "@types/react": "^19",
     "@types/react-dom": "^19",
     "eslint": "^9",

@@ -1,0 +1,22 @@
+[
+  { "id": "spark", "emoji": "✨", "label": "Sparkle" },
+  { "id": "fire", "emoji": "🔥", "label": "Fire" },
+  { "id": "party", "emoji": "🎉", "label": "Party" },
+  { "id": "confetti", "emoji": "🎊", "label": "Confetti" },
+  { "id": "star", "emoji": "⭐", "label": "Star" },
+  { "id": "sun", "emoji": "☀️", "label": "Sun" },
+  { "id": "moon", "emoji": "🌙", "label": "Moon" },
+  { "id": "rocket", "emoji": "🚀", "label": "Rocket" },
+  { "id": "bolt", "emoji": "⚡", "label": "Bolt" },
+  { "id": "heart", "emoji": "💙", "label": "Heart" },
+  { "id": "crown", "emoji": "👑", "label": "Crown" },
+  { "id": "grad", "emoji": "🎓", "label": "Grad" },
+  { "id": "book", "emoji": "📚", "label": "Books" },
+  { "id": "trophy", "emoji": "🏆", "label": "Trophy" },
+  { "id": "target", "emoji": "🎯", "label": "Goal" },
+  { "id": "medal", "emoji": "🏅", "label": "Medal" },
+  { "id": "diamond", "emoji": "💎", "label": "Gem" },
+  { "id": "hands", "emoji": "🙌", "label": "Cheers" },
+  { "id": "rainbow", "emoji": "🌈", "label": "Rainbow" },
+  { "id": "flower", "emoji": "🌸", "label": "Bloom" }
+]

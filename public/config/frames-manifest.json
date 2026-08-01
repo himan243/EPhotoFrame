@@ -1,0 +1,437 @@
+{
+  "generatedAt": "2026-08-01T19:07:35.275Z",
+  "frames": [
+    {
+      "id": "batch-2026-2029",
+      "name": "batch 2026 2029",
+      "category": "Batches",
+      "path": "/frames/Batches/batch-2026-2029.svg",
+      "type": "svg",
+      "enabled": true,
+      "opacity": 100
+    },
+    {
+      "id": "batch-2026-2030",
+      "name": "batch 2026 2030",
+      "category": "Batches",
+      "path": "/frames/Batches/batch-2026-2030.svg",
+      "type": "svg",
+      "enabled": true,
+      "opacity": 100
+    },
+    {
+      "id": "batch-2026-2031",
+      "name": "batch 2026 2031",
+      "category": "Batches",
+      "path": "/frames/Batches/batch-2026-2031.svg",
+      "type": "svg",
+      "enabled": true,
+      "opacity": 100
+    },
+    {
+      "id": "batch-2026-2032",
+      "name": "batch 2026 2032",
+      "category": "Batches",
+      "path": "/frames/Batches/batch-2026-2032.svg",
+      "type": "svg",
+      "enabled": true,
+      "opacity": 100
+    },
+    {
+      "id": "bba",
+      "name": "bba",
+      "category": "Courses",
+      "path": "/frames/Courses/bba.svg",
+      "type": "svg",
+      "enabled": true,
+      "opacity": 100
+    },
+    {
+      "id": "bca",
+      "name": "bca",
+      "category": "Courses",
+      "path": "/frames/Courses/bca.svg",
+      "type": "svg",
+      "enabled": true,
+      "opacity": 100
+    },
+    {
+      "id": "bcom",
+      "name": "bcom",
+      "category": "Courses",
+      "path": "/frames/Courses/bcom.svg",
+      "type": "svg",
+      "enabled": true,
+      "opacity": 100
+    },
+    {
+      "id": "btech",
+      "name": "btech",
+      "category": "Courses",
+      "path": "/frames/Courses/btech.svg",
+      "type": "svg",
+      "enabled": true,
+      "opacity": 100
+    },
+    {
+      "id": "mba",
+      "name": "mba",
+      "category": "Courses",
+      "path": "/frames/Courses/mba.svg",
+      "type": "svg",
+      "enabled": true,
+      "opacity": 100
+    },
+    {
+      "id": "mca",
+      "name": "mca",
+      "category": "Courses",
+      "path": "/frames/Courses/mca.svg",
+      "type": "svg",
+      "enabled": true,
+      "opacity": 100
+    },
+    {
+      "id": "mtech",
+      "name": "mtech",
+      "category": "Courses",
+      "path": "/frames/Courses/mtech.svg",
+      "type": "svg",
+      "enabled": true,
+      "opacity": 100
+    },
+    {
+      "id": "ai",
+      "name": "ai",
+      "category": "Departments",
+      "path": "/frames/Departments/ai.svg",
+      "type": "svg",
+      "enabled": true,
+      "opacity": 100
+    },
+    {
+      "id": "business",
+      "name": "business",
+      "category": "Departments",
+      "path": "/frames/Departments/business.svg",
+      "type": "svg",
+      "enabled": true,
+      "opacity": 100
+    },
+    {
+      "id": "civil",
+      "name": "civil",
+      "category": "Departments",
+      "path": "/frames/Departments/civil.svg",
+      "type": "svg",
+      "enabled": true,
+      "opacity": 100
+    },
+    {
+      "id": "cse",
+      "name": "cse",
+      "category": "Departments",
+      "path": "/frames/Departments/cse.svg",
+      "type": "svg",
+      "enabled": true,
+      "opacity": 100
+    },
+    {
+      "id": "cyber",
+      "name": "cyber",
+      "category": "Departments",
+      "path": "/frames/Departments/cyber.svg",
+      "type": "svg",
+      "enabled": true,
+      "opacity": 100
+    },
+    {
+      "id": "design",
+      "name": "design",
+      "category": "Departments",
+      "path": "/frames/Departments/design.svg",
+      "type": "svg",
+      "enabled": true,
+      "opacity": 100
+    },
+    {
+      "id": "ece",
+      "name": "ece",
+      "category": "Departments",
+      "path": "/frames/Departments/ece.svg",
+      "type": "svg",
+      "enabled": true,
+      "opacity": 100
+    },
+    {
+      "id": "finance",
+      "name": "finance",
+      "category": "Departments",
+      "path": "/frames/Departments/finance.svg",
+      "type": "svg",
+      "enabled": true,
+      "opacity": 100
+    },
+    {
+      "id": "marketing",
+      "name": "marketing",
+      "category": "Departments",
+      "path": "/frames/Departments/marketing.svg",
+      "type": "svg",
+      "enabled": true,
+      "opacity": 100
+    },
+    {
+      "id": "mech",
+      "name": "mech",
+      "category": "Departments",
+      "path": "/frames/Departments/mech.svg",
+      "type": "svg",
+      "enabled": true,
+      "opacity": 100
+    },
+    {
+      "id": "festival-colors",
+      "name": "festival colors",
+      "category": "Festival",
+      "path": "/frames/Festival/festival-colors.svg",
+      "type": "svg",
+      "enabled": true,
+      "opacity": 100
+    },
+    {
+      "id": "festival-lights",
+      "name": "festival lights",
+      "category": "Festival",
+      "path": "/frames/Festival/festival-lights.svg",
+      "type": "svg",
+      "enabled": true,
+      "opacity": 100
+    },
+    {
+      "id": "class-of-2026",
+      "name": "class of 2026",
+      "category": "Freshers",
+      "path": "/frames/Freshers/class-of-2026.svg",
+      "type": "svg",
+      "enabled": true,
+      "opacity": 100
+    },
+    {
+      "id": "new-beginnings",
+      "name": "new beginnings",
+      "category": "Freshers",
+      "path": "/frames/Freshers/new-beginnings.svg",
+      "type": "svg",
+      "enabled": true,
+      "opacity": 100
+    },
+    {
+      "id": "orientation-day",
+      "name": "orientation day",
+      "category": "Freshers",
+      "path": "/frames/Freshers/orientation-day.svg",
+      "type": "svg",
+      "enabled": true,
+      "opacity": 100
+    },
+    {
+      "id": "the-journey-begins",
+      "name": "the journey begins",
+      "category": "Freshers",
+      "path": "/frames/Freshers/the-journey-begins.svg",
+      "type": "svg",
+      "enabled": true,
+      "opacity": 100
+    },
+    {
+      "id": "welcome-2026",
+      "name": "welcome 2026",
+      "category": "Freshers",
+      "path": "/frames/Freshers/welcome-2026.svg",
+      "type": "svg",
+      "enabled": true,
+      "opacity": 100
+    },
+    {
+      "id": "bokeh",
+      "name": "bokeh",
+      "category": "Special",
+      "path": "/frames/Special/bokeh.svg",
+      "type": "svg",
+      "enabled": true,
+      "opacity": 100
+    },
+    {
+      "id": "film-strip",
+      "name": "film strip",
+      "category": "Special",
+      "path": "/frames/Special/film-strip.svg",
+      "type": "svg",
+      "enabled": true,
+      "opacity": 100
+    },
+    {
+      "id": "golden-2026",
+      "name": "golden 2026",
+      "category": "Special",
+      "path": "/frames/Special/golden-2026.svg",
+      "type": "svg",
+      "enabled": true,
+      "opacity": 100
+    },
+    {
+      "id": "neon-edge",
+      "name": "neon edge",
+      "category": "Special",
+      "path": "/frames/Special/neon-edge.svg",
+      "type": "svg",
+      "enabled": true,
+      "opacity": 100
+    },
+    {
+      "id": "polaroid",
+      "name": "polaroid",
+      "category": "Special",
+      "path": "/frames/Special/polaroid.svg",
+      "type": "svg",
+      "enabled": true,
+      "opacity": 100
+    },
+    {
+      "id": "aurora",
+      "name": "aurora",
+      "category": "Themes",
+      "path": "/frames/Themes/aurora.svg",
+      "type": "svg",
+      "enabled": true,
+      "opacity": 100
+    },
+    {
+      "id": "corporate",
+      "name": "corporate",
+      "category": "Themes",
+      "path": "/frames/Themes/corporate.svg",
+      "type": "svg",
+      "enabled": true,
+      "opacity": 100
+    },
+    {
+      "id": "creative",
+      "name": "creative",
+      "category": "Themes",
+      "path": "/frames/Themes/creative.svg",
+      "type": "svg",
+      "enabled": true,
+      "opacity": 100
+    },
+    {
+      "id": "cyberpunk",
+      "name": "cyberpunk",
+      "category": "Themes",
+      "path": "/frames/Themes/cyberpunk.svg",
+      "type": "svg",
+      "enabled": true,
+      "opacity": 100
+    },
+    {
+      "id": "dark-mode",
+      "name": "dark mode",
+      "category": "Themes",
+      "path": "/frames/Themes/dark-mode.svg",
+      "type": "svg",
+      "enabled": true,
+      "opacity": 100
+    },
+    {
+      "id": "developer",
+      "name": "developer",
+      "category": "Themes",
+      "path": "/frames/Themes/developer.svg",
+      "type": "svg",
+      "enabled": true,
+      "opacity": 100
+    },
+    {
+      "id": "future-engineer",
+      "name": "future engineer",
+      "category": "Themes",
+      "path": "/frames/Themes/future-engineer.svg",
+      "type": "svg",
+      "enabled": true,
+      "opacity": 100
+    },
+    {
+      "id": "glass",
+      "name": "glass",
+      "category": "Themes",
+      "path": "/frames/Themes/glass.svg",
+      "type": "svg",
+      "enabled": true,
+      "opacity": 100
+    },
+    {
+      "id": "golden",
+      "name": "golden",
+      "category": "Themes",
+      "path": "/frames/Themes/golden.svg",
+      "type": "svg",
+      "enabled": true,
+      "opacity": 100
+    },
+    {
+      "id": "gradient",
+      "name": "gradient",
+      "category": "Themes",
+      "path": "/frames/Themes/gradient.svg",
+      "type": "svg",
+      "enabled": true,
+      "opacity": 100
+    },
+    {
+      "id": "innovation",
+      "name": "innovation",
+      "category": "Themes",
+      "path": "/frames/Themes/innovation.svg",
+      "type": "svg",
+      "enabled": true,
+      "opacity": 100
+    },
+    {
+      "id": "instagram",
+      "name": "instagram",
+      "category": "Themes",
+      "path": "/frames/Themes/instagram.svg",
+      "type": "svg",
+      "enabled": true,
+      "opacity": 100
+    },
+    {
+      "id": "leadership",
+      "name": "leadership",
+      "category": "Themes",
+      "path": "/frames/Themes/leadership.svg",
+      "type": "svg",
+      "enabled": true,
+      "opacity": 100
+    },
+    {
+      "id": "luxury",
+      "name": "luxury",
+      "category": "Themes",
+      "path": "/frames/Themes/luxury.svg",
+      "type": "svg",
+      "enabled": true,
+      "opacity": 100
+    },
+    {
+      "id": "minimal",
+      "name": "minimal",
+      "category": "Themes",
+      "path": "/frames/Themes/minimal.svg",
+      "type": "svg",
+      "enabled": true,
+      "opacity": 100
+    }
+  ]
+}

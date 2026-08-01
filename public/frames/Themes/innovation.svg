@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="1067" viewBox="0 0 800 1067">
+<defs>
+  <linearGradient id="bandGrad" x1="0" y1="0" x2="1" y2="0">
+    <stop offset="0" stop-color="#223669"/>
+    <stop offset="0.5" stop-color="#5b7bd6"/>
+    <stop offset="1" stop-color="#7c5cff"/>
+  </linearGradient>
+  <radialGradient id="glow" cx="0.5" cy="0.35" r="0.9">
+    <stop offset="0" stop-color="#5b7bd6" stop-opacity="0.5"/>
+    <stop offset="1" stop-color="#7c5cff" stop-opacity="0"/>
+  </radialGradient>
+</defs>
+<rect x="0" y="0" width="800" height="1067" fill="url(#glow)"/>
+<path d="M 176 170.72 L 272 170.72 L 272 362.78000000000003 L 176 362.78000000000003 Z" fill="none" stroke="#5b7bd6" stroke-width="4"/>
+<path d="M 624 170.72 L 528 170.72 L 528 362.78000000000003 L 624 362.78000000000003 Z" fill="none" stroke="#5b7bd6" stroke-width="4"/>
+<path d="M 176 896.28 L 272 896.28 L 272 704.22 L 176 704.22 Z" fill="none" stroke="#5b7bd6" stroke-width="4"/>
+<path d="M 624 896.28 L 528 896.28 L 528 704.22 L 624 704.22 Z" fill="none" stroke="#5b7bd6" stroke-width="4"/>
+<line x1="0" y1="533.5" x2="800" y2="533.5" stroke="#7c5cff44" stroke-width="2"/>
+</svg>

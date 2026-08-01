@@ -1,0 +1,14 @@
+[
+  { "id": "transparent", "name": "Transparent", "kind": "transparent", "colors": [], "hidden": false },
+  { "id": "stage", "name": "Orientation Stage", "kind": "stage", "colors": ["#1b2c58", "#223669", "#0B1022"], "hidden": false },
+  { "id": "campus", "name": "Sunstone Campus", "kind": "campus", "colors": ["#123524", "#0B2A1C", "#06140D"], "hidden": false },
+  { "id": "aurora", "name": "Abstract Aurora", "kind": "gradient", "colors": ["#0B1022", "#223669", "#7C5CFF", "#22D3EE"], "hidden": false },
+  { "id": "glass", "name": "Glass", "kind": "glass", "colors": ["#0F1628", "#1E2A4A", "#3A4C86"], "hidden": false },
+  { "id": "luxury", "name": "Luxury Studio", "kind": "luxury", "colors": ["#16110A", "#2A2014", "#C9A24B"], "hidden": false },
+  { "id": "minimal", "name": "Minimal Grey", "kind": "solid", "colors": ["#E8E9EE"], "hidden": false },
+  { "id": "golden", "name": "Golden Hour", "kind": "gradient", "colors": ["#2A1602", "#7A4B12", "#E3A83B", "#FFE0A3"], "hidden": false },
+  { "id": "futuristic", "name": "Futuristic Blue", "kind": "gradient", "colors": ["#050B1E", "#0A2E6E", "#22D3EE", "#FFFFFF"], "hidden": false },
+  { "id": "neon", "name": "Neon District", "kind": "gradient", "colors": ["#160526", "#7C2BD9", "#FF3FA4", "#22D3EE"], "hidden": false },
+  { "id": "royal", "name": "Royal Indigo", "kind": "gradient", "colors": ["#0B1022", "#312E81", "#7C3AED"], "hidden": false },
+  { "id": "rose", "name": "Blush Rose", "kind": "gradient", "colors": ["#2B0F1E", "#7F1D3E", "#F472B6"], "hidden": false }
+]

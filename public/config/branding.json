@@ -1,0 +1,22 @@
+{
+  "eventName": "Sunstone Freshers Experience 2026",
+  "shortName": "Freshers 2026",
+  "tagline": "The Beginning",
+  "year": "2026",
+  "logo": "/branding/logo.jpg",
+  "primary": "#223669",
+  "primaryAlt": "#1b2c58",
+  "accent": "#C9A24B",
+  "accentAlt": "#E3C374",
+  "ink": "#0B1022",
+  "ice": "#EEF2FF",
+  "background": "#0B1022",
+  "glass": "rgba(255,255,255,0.06)",
+  "glassBorder": "rgba(255,255,255,0.12)",
+  "displayFont": "Space Grotesk",
+  "bodyFont": "Inter",
+  "heroTitle": "Create Your Freshers Memory",
+  "heroSubtitle": "Step in front of the lens. Frame your moment. Beam it to your phone — no internet, no Bluetooth, just light.",
+  "footerText": "Sunstone Freshers Experience — crafted with zero cloud, all magic.",
+  "confettiColors": ["#C9A24B", "#E3C374", "#223669", "#ffffff", "#A78BFA"]
+}
